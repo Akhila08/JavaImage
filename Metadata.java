@@ -16,7 +16,6 @@ public class Metadata {
     } else {
         System.out.println("cannot find file: " + filename);
     }
-     
     }
 
     void readAndDisplayMetadata( String fileName ) {
