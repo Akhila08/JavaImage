@@ -1,3 +1,4 @@
+@@ -0,0 +1,104 @@
 import org.w3c.dom.*;
 import java.io.*;
 import static java.lang.System.out;
@@ -16,6 +17,7 @@ public class Metadata {
     } else {
         System.out.println("cannot find file: " + filename);
     }
+     
     }
 
     void readAndDisplayMetadata( String fileName ) {
@@ -101,3 +103,4 @@ System.setOut(ps);
     }
 
 }
+\ No newline at end of file
